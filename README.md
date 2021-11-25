@@ -7,7 +7,7 @@
 ---------------------
 
 ## test list
-
+```
 if __name__ == '__main__':
     test_list = ['포르쉐구일일',
                  '포르쉐구백십일',
@@ -23,9 +23,10 @@ if __name__ == '__main__':
                  '십이기통']
     for item in test_list:
         print(text2int(item,{}))
-        
+```     
 ## result
 
+```
 포르쉐911
 포르쉐911
 BMW428i 
@@ -38,3 +39,4 @@ BMW428i
 718박스터 
 8기통 
 12기통 
+```
